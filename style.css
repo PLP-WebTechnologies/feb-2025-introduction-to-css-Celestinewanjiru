@@ -1,0 +1,59 @@
+/* Universal Styles for all elements */
+body {
+  font-family: "Arial", sans-serif; /* General font */
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #2d3e50;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Class selector for description */
+.description {
+  font-style: italic;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+/* Using a class selector to style the image */
+.styled-image {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: auto;
+  border: 5px solid #333;
+  border-radius: 10px;
+}
+
+/* Main content styles */
+main {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Paragraph content styling */
+.content {
+  padding: 15px;
+  margin-top: 20px;
+  border: 2px solid #2d3e50;
+  border-radius: 5px;
+  background-color: #ffffff;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-family: "Courier New", Courier, monospace;
+}
